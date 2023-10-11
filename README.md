@@ -26,6 +26,11 @@ apptics {
 }
 
 ```
+**Setup for iOS Build**
+
+- Add/move the apptics-config.plist to the Assets folder.
+- If you rename apptics-config.plist, then open (Assets -> Editor -> AppticsPostProcessor.cs) and replace the file name apptics-config.plist with your custom file name.     
+
 
 #### Initializing Apptics
 
